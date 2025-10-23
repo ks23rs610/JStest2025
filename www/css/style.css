@@ -1,24 +1,24 @@
 /**/
 
 html,body {
-  background: skyblue;
-  height: 100%;
+  background: magenta;
+  height: 80%;
 }
 
 .out {
   border: solid 1px black;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 60px;
+  padding: 5px;
   margin: 5px;
-  height: 40%;
-  background: white;
+  height: 60%;
+  background: lawngreen;
 }
 
 #btn {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 #btn::after {
-  content: "▶";
+  content: "×";
   color: red;
 }
